@@ -118,7 +118,7 @@ class Huffman
         }
 
 
-// traverse the Huffman Tree and decode the encoded string
+
     public static int decode(Node root, int index, StringBuilder sb)
     {
         if (root == null)
