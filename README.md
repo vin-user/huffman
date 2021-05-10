@@ -1,12 +1,12 @@
 # huffman
-huffman algorithm in any language
+// huffman algorithm in any language 
 
 
-BIBOP, [10.05.21 11:46]
+
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
-// A Tree node
 class Node
 {
     char ch;
@@ -25,12 +25,11 @@ class Node
         this.left = left;
         this.right = right;
     }
-};
+}
 
 class Huffman
 {
-    // traverse the Huffman Tree and store Huffman Codes
-    // in a map.
+    
     public static void encode(Node root, String str,
                               Map<Character, String> huffmanCode)
     {
